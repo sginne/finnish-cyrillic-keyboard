@@ -8,6 +8,7 @@ This layout hack aimed primarily at russians who live in Finland and use linux, 
 Installation is pretty straightforward:
 
 First: Copy 'fi' file into /usr/share/X11/xkb/symbols Use root permissions and overwrite existing layout.
+
 Optionally you can 'kdesu kate /usr/share/X11/xkb/symbols/fi' and append:
 
   partial alphanumeric_keys
