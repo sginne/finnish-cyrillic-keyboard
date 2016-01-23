@@ -1,6 +1,6 @@
 # Xorg phonetic cyrillic layout for finnish keyboard
 
-![Keyboard layout](https://raw.github.com/sginne/finnish-russian-keyboard/layout.png )
+![Keyboard layout](https://github.com/sginne/finnish-russian-keyboard/blob/master/layout.png?raw=true )
 
 
 See this readme in raw format(!!!), cba to do formatting atm.
