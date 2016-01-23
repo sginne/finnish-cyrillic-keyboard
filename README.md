@@ -1,5 +1,7 @@
 # Xorg phonetic cyrillic layout for finnish keyboard
 
+See this readme in raw format(!!!), cba to do formatting atm.
+
 This layout hack aimed primarily at russians who live in Finland and use linux, but dont want to use silly stickers.
 Installation is pretty straightforward:
 
@@ -15,10 +17,10 @@ Optionally you can 'kdesu kate /usr/share/X11/xkb/symbols/fi' and append:
 
   };
 
-(copy block 'xkb_symbols "firu" 'of text from my 'fi' file AND DONT FORGET SEMICOLON!)
+(copy block 'xkb_symbols "firu" 'of text from my 'fi' file AND DONT FORGET SEMICOLON! And partial alphanumeric_keys in front of it)
 
 2. Find
-        <variant>
+	<variant>
           <configItem>
             <name>mac</name>
             <description>Finnish (Macintosh)</description>
