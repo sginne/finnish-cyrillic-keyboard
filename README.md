@@ -3,6 +3,8 @@
 ![Keyboard layout](https://github.com/sginne/finnish-russian-keyboard/blob/master/layout.png?raw=true )
 
 
+To switch layout use: ''setxkbmap -model pc105 -layout fi,fi -variant ",firu"  -option grp:lctrl_lshift_toggle''
+Ctrl-Shift later
 
 This layout hack aimed primarily at russians who live in Finland and use linux, but dont want to use silly stickers.
 Installation is pretty straightforward:
