@@ -2,6 +2,8 @@
 
 ![Keyboard layout](https://github.com/sginne/finnish-russian-keyboard/blob/master/layout.png?raw=true )
 
+Update - added ukraininan letters - І/і,Є/е,Ї/ї
+Can be found on I,E,J keys, but holding AltGr or AltGr-Shift for capital letter.
 
 To switch layout use: ''setxkbmap -model pc105 -layout fi,fi -variant ",firu"  -option grp:lctrl_lshift_toggle''
 Ctrl-Shift later
