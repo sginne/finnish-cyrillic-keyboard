@@ -3,6 +3,8 @@
 ![Keyboard layout](https://github.com/sginne/finnish-russian-keyboard/blob/master/layout.png?raw=true )
 
 ## Latest Update:
+added ґ/Ґ
+
 added ukraininan letters - І/і,Є/е,Ї/ї
 Can be found on I,E,J keys, but holding AltGr or AltGr-Shift for capital letter.
 
