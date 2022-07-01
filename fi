@@ -220,7 +220,7 @@ xkb_symbols "firu" {
     
     name[Group1]="Finnish-Russian";
     key <TLDE> { [  Cyrillic_io,               Cyrillic_IO,          dead_stroke,           NoSymbol              ] };
-    key <AE12> { [  Cyrillic_hardsign,         Cyrillic_HARDSIGN,       dead_cedilla,          dead_ogonek           ] };
+    key <AE12> { [  Cyrillic_hardsign,         Cyrillic_HARDSIGN,       apostrophe,          dead_ogonek           ] };
     
     key <AD01> { [  Cyrillic_ya,               Cyrillic_YA,                Cyrillic_ya,                     Cyrillic_YA                     ] };
     key <AD02> { [  Cyrillic_ve,               Cyrillic_VE,                Cyrillic_ve,                     Cyrillic_VE                     ] };
