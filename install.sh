@@ -1,6 +1,4 @@
-if [ "$EUID" -ne 0 ]
-  then echo "Please run as root"
-  exit
-fi
 
-cp fi /usr/share/X11/xkb/symbols/
+
+sudo cp fi /usr/share/X11/xkb/symbols/
+setxkbmap -model pc105 -layout fi,fi -variant ",firu" -option grp:lctrl_lshift_toggle
