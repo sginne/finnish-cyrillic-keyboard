@@ -227,7 +227,7 @@ xkb_symbols "firu" {
     key <AD03> { [  Cyrillic_ie,               Cyrillic_IE,                Ukrainian_ie,              Ukrainian_IE                  ] };
     key <AD04> { [  Cyrillic_er,               Cyrillic_ER,                registered,            NoSymbol              ] };
     key <AD05> { [  Cyrillic_te,               Cyrillic_TE,                thorn,                 THORN                 ] };
-    key <AD06> { [  Cyrillic_yeru,             Cyrillic_YERU,                y,                     Y                     ] };
+    key <AD06> { [  Ukrainian_yi,                     Ukrainian_YI,                y,                     Y                     ] };
     key <AD07> { [  Cyrillic_u,                Cyrillic_U,                u,                     U                     ] };
     key <AD08> { [  Ukrainian_i,              Ukrainian_I,                Cyrillic_i,                Cyrillic_I                   ] };
     key <AD09> { [  Cyrillic_o,                Cyrillic_O,                o,                     O                     ] };
@@ -242,7 +242,7 @@ xkb_symbols "firu" {
     key <AC04> { [  Cyrillic_ef,               Cyrillic_EF,                f,                     F                     ] };
     key <AC05> { [  Cyrillic_ghe,              Cyrillic_GHE,                Ukrainian_ghe_with_upturn,                   Ukrainian_GHE_WITH_UPTURN                   ] };
     key <AC06> { [  Cyrillic_ha,               Cyrillic_HA,                h,                     H                     ] };
-    key <AC07> { [  Cyrillic_shorti,           Cyrillic_SHORTI,                Ukrainian_yi,                     Ukrainian_YI                     ] };
+    key <AC07> { [  Cyrillic_shorti,           Cyrillic_SHORTI,                Cyrillic_yeru,             Cyrillic_YERU                     ] };
     key <AC08> { [  Cyrillic_ka,               Cyrillic_KA,                kra,                   NoSymbol              ] };
     key <AC09> { [  Cyrillic_el,               Cyrillic_EL,                dead_stroke,           NoSymbol              ] };
     key <AC10> { [  Cyrillic_sha,      	       Cyrillic_SHA,       oslash,                Oslash                ] };
