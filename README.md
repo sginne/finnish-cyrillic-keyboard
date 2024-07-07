@@ -1,4 +1,4 @@
-# Xorg Phonetic Cyrillic Layout for Finnish Keyboard
+# X11 Phonetic Cyrillic Layout for Finnish Keyboard
 
 ![Keyboard layout](https://github.com/sginne/finnish-russian-keyboard/blob/master/layout.png?raw=true)
 
