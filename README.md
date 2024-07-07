@@ -1,23 +1,41 @@
-# Xorg phonetic cyrillic layout for finnish keyboard
+Here is an updated and fancier version of your README file:
 
-![Keyboard layout](https://github.com/sginne/finnish-russian-keyboard/blob/master/layout.png?raw=true )
+# Xorg Phonetic Cyrillic Layout for Finnish Keyboard
 
-## Latest Update:
-added ґ/Ґ
+![Keyboard layout](https://github.com/sginne/finnish-russian-keyboard/blob/master/layout.png?raw=true)
 
-added ukraininan letters - І/і,Є/е,Ї/ї
-Can be found on I,E,J keys, but holding AltGr or AltGr-Shift for capital letter.
+## Latest Update
+- Changed apostrophe and hard_sign for more versatile Ukrainian.
+- Added ґ/Ґ.
+- Added Ukrainian letters: І/і, Є/е, Ї/ї.
+  - Can be found on I, E, J keys, with AltGr or AltGr-Shift for capital letters.
 
-## To install customized layout:
-Copy 'fi' file into /usr/share/X11/xkb/symbols Use root permissions and overwrite existing layout.
+## Installation
+To install the customized layout, follow these steps:
 
-## To use layout:
-''setxkbmap -model pc105 -layout fi,fi -variant ",firu"  -option grp:lctrl_lshift_toggle''
+1. Ensure you have `make` installed on your system.
+2. Clone this repository to your local machine.
+3. Run the following command to install the layout:
+   ```bash
+   sudo make install
+   ```
 
-## To switch layout:
-Ctrl-Shift
+## Usage
+To use the layout, execute the following command:
+```bash
+setxkbmap -model pc105 -layout fi,fi -variant ",firu" -option grp:lctrl_lshift_toggle
+```
 
-## Information:
-This layout hack aimed primarily at cyrillic users (russian/ukrainian/belorussian) who live in Finland and use linux, but dont want to use silly stickers.
+## Switching Layout
+- Use `Ctrl-Shift` to switch between layouts.
 
+## Information
+This layout hack is primarily aimed at Cyrillic users (Russian/Ukrainian/Belarusian) living in Finland who use Linux and do not want to use stickers.
 
+## Uninstallation
+If you need to uninstall and restore the original layout, run:
+```bash
+sudo make uninstall
+```
+
+This will restore the original `fi` file from the backup created during installation.
