@@ -18,10 +18,10 @@ To install the customized layout, follow these steps:
    sudo make install
    ```
 
-## Usage
-To use the layout, execute the following command:
+## Setting the Layout
+To set the keyboard layout after installation, run:
 ```bash
-setxkbmap -model pc105 -layout fi,fi -variant ",firu" -option grp:lctrl_lshift_toggle
+make setlayout
 ```
 
 ## Switching Layout
@@ -37,3 +37,5 @@ sudo make uninstall
 ```
 
 This will restore the original `fi` file from the backup created during installation.
+
+This README now includes the necessary instructions for installation, setting the layout, and uninstallation without the `setxkbmap` command in the usage section.
