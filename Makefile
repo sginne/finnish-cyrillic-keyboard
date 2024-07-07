@@ -2,7 +2,7 @@ TARGET_DIR=/usr/share/X11/xkb/symbols
 BACKUP_DIR=$(TARGET_DIR)/backup
 FI_FILE=fi
 
-.PHONY: install uninstall
+.PHONY: install uninstall setlayout
 
 install:
 	@if [ "$$EUID" -ne 0 ]; then \
@@ -14,10 +14,10 @@ install:
 	    cp "$(TARGET_DIR)/$(FI_FILE)" "$(BACKUP_DIR)/$(FI_FILE).bak"; \
 	    echo "Backup of the original fi file created as $(BACKUP_DIR)/$(FI_FILE).bak"; \
 	fi
-	cp $(FI_FILE) $(TARGET_DIR)/$(FI_FILE)
-	echo "New fi file has been copied to $(TARGET_DIR)"
-	chmod 644 $(TARGET_DIR)/$(FI_FILE)
-	echo "Installation completed successfully"
+	@cp $(FI_FILE) $(TARGET_DIR)/$(FI_FILE)
+	@echo "New fi file has been copied to $(TARGET_DIR)"
+	@chmod 644 $(TARGET_DIR)/$(FI_FILE)
+	@echo "Installation completed successfully. To set the keyboard layout, run 'make setlayout'."
 
 uninstall:
 	@if [ "$$EUID" -ne 0 ]; then \
@@ -32,5 +32,8 @@ uninstall:
 	    echo "No backup found. Cannot restore the original fi file."; \
 	    exit 1; \
 	fi
-	echo "Uninstallation completed successfully"
+	@echo "Uninstallation completed successfully"
 
+setlayout:
+	@setxkbmap -model pc105 -layout fi,fi -variant ",firu" -option grp:lctrl_lshift_toggle
+	@echo "Keyboard layout set to Finnish-Cyrillic"
