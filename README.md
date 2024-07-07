@@ -1,5 +1,3 @@
-Here is an updated and fancier version of your README file:
-
 # Xorg Phonetic Cyrillic Layout for Finnish Keyboard
 
 ![Keyboard layout](https://github.com/sginne/finnish-russian-keyboard/blob/master/layout.png?raw=true)
