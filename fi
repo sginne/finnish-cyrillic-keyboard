@@ -220,7 +220,7 @@ xkb_symbols "firu" {
     
     name[Group1]="Finnish-Russian";
     key <TLDE> { [  Cyrillic_io,               Cyrillic_IO,          dead_stroke,           NoSymbol              ] };
-    key <AE12> { [  Cyrillic_hardsign,         Cyrillic_HARDSIGN,       apostrophe,          dead_ogonek           ] };
+    key <AE12> { [  apostrophe,         Cyrillic_hardsign,       Cyrillic_HARDSIGN,          dead_ogonek           ] };
     
     key <AD01> { [  Cyrillic_ya,               Cyrillic_YA,                Cyrillic_ya,                     Cyrillic_YA                     ] };
     key <AD02> { [  Cyrillic_ve,               Cyrillic_VE,                Cyrillic_ve,                     Cyrillic_VE                     ] };
@@ -229,7 +229,7 @@ xkb_symbols "firu" {
     key <AD05> { [  Cyrillic_te,               Cyrillic_TE,                thorn,                 THORN                 ] };
     key <AD06> { [  Cyrillic_yeru,             Cyrillic_YERU,                y,                     Y                     ] };
     key <AD07> { [  Cyrillic_u,                Cyrillic_U,                u,                     U                     ] };
-    key <AD08> { [  Cyrillic_i,                Cyrillic_I,                Ukrainian_i,              Ukrainian_I                   ] };
+    key <AD08> { [  Cyrillic_i,                Cyrillic_I,                Ukrainian_i,              Ukrainian_I                  ] };
     key <AD09> { [  Cyrillic_o,                Cyrillic_O,                o,                     O                     ] };
     key <AD10> { [  Cyrillic_pe,               Cyrillic_PE,                paragraph,             NoSymbol              ] };
     key <AD11> { [  Cyrillic_che,              Cyrillic_CHE,            oe,                    OE                    ] };
