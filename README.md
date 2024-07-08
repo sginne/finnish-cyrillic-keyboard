@@ -12,7 +12,7 @@
 To install the customized layout, follow these steps: / Щоб встановити налаштовану розкладку, виконайте наступні кроки:
 
 1. Ensure you have `make` installed on your system. / Переконайтеся, що у вас встановлено `make` у системі.
-2. Clone this repository to your local machine. / Клонувати цей репозиторій на ваш локальний комп'ютер.
+2. Clone this repository to your local machine. / Клонуйте цей репозиторій на ваш локальний комп'ютер.
 3. Run the following command to install the layout: / Виконайте наступну команду, щоб встановити розкладку:
    ```bash
    sudo make install
