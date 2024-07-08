@@ -3,7 +3,7 @@
 ![Keyboard layout](https://github.com/sginne/finnish-russian-keyboard/blob/master/layout.png?raw=true)
 
 ## Latest Update / Останнє оновлення
-- Changed apostrophe and hard_sign for more versatile Ukrainian. / Змінив апостроф і твердий знак для більш універсального українського.
+- Changed apostrophe and hard_sign for more versatile Ukrainian. / Змінив апостроф і твердий знак для більш універсальної української.
 - Added ґ/Ґ. / Додано ґ/Ґ.
 - Added Ukrainian letters: І/і, Є/е, Ї/ї. / Додано українські літери: І/і, Є/е, Ї/ї.
   - Can be found on I, E, J keys, with AltGr or AltGr-Shift for capital letters. / Можна знайти на клавішах I, E, J, з AltGr або AltGr-Shift для великих літер.
