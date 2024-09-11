@@ -222,9 +222,8 @@ xkb_symbols "firu" {
     key <TLDE> { [  Cyrillic_io,               Cyrillic_IO,          dead_stroke,           NoSymbol              ] };
     key <AE12> { [  apostrophe,         Cyrillic_hardsign,       Cyrillic_HARDSIGN,          dead_ogonek           ] };
     
-    key <AD01> { [  Cyrillic_ya,               Cyrillic_YA,                Cyrillic_ya,                     Cyrillic_YA                     ] };
-    key <AD02> { [  Cyrillic_ve,               Cyrillic_VE,                Cyrillic_ve,                     Cyrillic_VE                     ] };
-    key <AD03> { [  Cyrillic_ie,               Cyrillic_IE,                Ukrainian_ie,              Ukrainian_IE                  ] };
+    key <AD01> { [  Cyrillic_ya, Cyrillic_YA, guillemotleft, NoSymbol ] };
+    key <AD02> { [  Cyrillic_ve, Cyrillic_VE, guillemotright, NoSymbol ] };    key <AD03> { [  Cyrillic_ie,               Cyrillic_IE,                Ukrainian_ie,              Ukrainian_IE                  ] };
     key <AD04> { [  Cyrillic_er,               Cyrillic_ER,                registered,            NoSymbol              ] };
     key <AD05> { [  Cyrillic_te,               Cyrillic_TE,                thorn,                 THORN                 ] };
     key <AD06> { [  Cyrillic_yeru,             Cyrillic_YERU,                y,                     Y                     ] };
