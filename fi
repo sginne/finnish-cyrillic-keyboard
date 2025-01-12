@@ -212,13 +212,13 @@ xkb_symbols "sun_type6" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "firu" {
-    // Adaption of russian symbols to Finnish keyboard
+xkb_symbols "ficyr" {
+    // Adaption of cyrillic symbols to Finnish keyboard
     // by sginne, sigin@norsula.comma
     
     include "fi(fi)"
     
-    name[Group1]="Finnish-Russian";
+    name[Group1]="Finnish-cyrillic";
     key <TLDE> { [  Cyrillic_io,               Cyrillic_IO,          dead_stroke,           NoSymbol              ] };
     key <AE12> { [  apostrophe,         Cyrillic_hardsign,       Cyrillic_HARDSIGN,          dead_ogonek           ] };
     
