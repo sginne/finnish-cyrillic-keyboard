@@ -35,5 +35,5 @@ uninstall:
 	@echo "Uninstallation completed successfully"
 
 setlayout:
-	@setxkbmap -model pc105 -layout fi,fi -variant ",firu" -option grp:lctrl_lshift_toggle
+	@setxkbmap -model pc105 -layout fi,fi -variant ",ficyr" -option grp:lctrl_lshift_toggle
 	@echo "Keyboard layout set to Finnish-Cyrillic"
